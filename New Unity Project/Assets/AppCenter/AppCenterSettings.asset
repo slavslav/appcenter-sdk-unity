@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ef30b23b2586041aedf18c9486176d, type: 3}
+  m_Name: AppCenterSettings
+  m_EditorClassIdentifier: 
+  iOSAppSecret: c7d464ba-8c6b-4e7b-a866-3d53112132eb
+  AndroidAppSecret: 6d4f2a96-71ea-4a6f-9fa8-27e0a6992750
+  UWPAppSecret: 41870fa1-1ee5-4417-ad41-499c16fa1dda
+  UseAnalytics: 1
+  UseCrashes: 1
+  UseDistribute: 1
+  CustomApiUrl:
+    UrlName: API
+    UseCustomUrl: 1
+    Url: https://api-gateway-core-integration.dev.avalanch.es/v0.1
+  CustomInstallUrl:
+    UrlName: Install
+    UseCustomUrl: 1
+    Url: https://install.portal-server-core-integration.dev.avalanch.es
+  EnableDistributeForDebuggableBuild: 1
+  AutomaticCheckForUpdate: 1
+  UsePush: 1
+  EnableFirebaseAnalytics: 0
+  InitialLogLevel: 2
+  UpdateTrack: 1
+  CustomLogUrl:
+    UrlName: Log
+    UseCustomUrl: 1
+    Url: https://in-integration.dev.avalanch.es
+  MaxStorageSize:
+    UseCustomMaxStorageSize: 0
+    Size: 0
